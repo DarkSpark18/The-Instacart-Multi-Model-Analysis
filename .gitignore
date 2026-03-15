@@ -1,0 +1,113 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# ============================================
+# INSTACART ML PIPELINE - .gitignore
+# ============================================
+
+# ============================================
+# DATA FILES (DO NOT PUSH - TOO LARGE)
+# ============================================
+
+# Raw data (CSV files)
+data/raw/*.csv
+data/raw/**/*.csv
+
+# Processed data (Parquet files)
+data/processed/*.parquet
+data/processed/*.csv
+
+# Feature store (Large parquet files)
+data/features/*.parquet
+data/features/*.csv
+
+# Predictions (Generated outputs)
+data/predictions/*.parquet
+data/predictions/*.csv
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/features/.gitkeep
+!data/predictions/.gitkeep
+
+# ============================================
+# MODEL FILES (DO NOT PUSH - LARGE)
+# ============================================
+
+# Trained models (joblib files are large)
+models/trained/*.joblib
+models/trained/*.pkl
+models/trained/*.h5
+
+# Keep directory
+!models/trained/.gitkeep
+
+# ============================================
+# OUTPUT FILES
+# ============================================
+
+# Analysis outputs
+outputs/analysis/*.png
+outputs/analysis/*.jpg
+outputs/analysis/*.csv
+outputs/*.html
+
+# ============================================
+# PYTHON
+# ============================================
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+
+
+# ============================================
+# LARGE FILES
+# ============================================
+
+*.parquet
+*.csv
+*.joblib
+
+# Add these if you want:
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+
+# OS files  
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Notebooks (if you have large ones)
+notebooks/*.ipynb
+
+# Streamlit cache
+.streamlit/
