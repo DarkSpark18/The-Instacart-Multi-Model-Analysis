@@ -1,10 +1,10 @@
 import logging
 
-from src.basket_size_model import BasketSizeModel
-from src.reorder_probability_model import ReorderProbabilityModel
-from src.next_product_model import NextProductModel
-from src.churn_prediction_model import ChurnPredictionModel
-from src.recommendation_model import RecommendationModel
+from src.models.basket_size_model import BasketSizeModel
+from src.models.reorder_probability_model import ReorderProbabilityModel
+from src.models.next_product_model import NextProductModel
+from src.models.churn_prediction_model import ChurnPredictionModel
+from src.models.recommendation_model import RecommendationModel
 
 
 logging.basicConfig(

@@ -4,8 +4,8 @@ import os
 import logging
 import pandas as pd
 
-from src.model_registry import ModelRegistry
-from src.feature_selector import get_features
+from src.models.model_registry import ModelRegistry
+from src.features.feature_selector import get_features
 
 
 class ModelPredictor:

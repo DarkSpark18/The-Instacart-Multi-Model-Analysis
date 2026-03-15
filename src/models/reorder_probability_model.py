@@ -1,7 +1,7 @@
 from catboost import CatBoostClassifier
 
-from src.base_model import BaseModel
-from src.feature_selector import get_features
+from src.models.base_model import BaseModel
+from src.features.feature_selector import get_features
 
 
 class ReorderProbabilityModel(BaseModel):

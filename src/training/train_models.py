@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-from src.model_registry import ModelRegistry
-from src.feature_selector import get_features
+from src.models.model_registry import ModelRegistry
+from src.features.feature_selector import get_features
 
 
 class ModelTrainer:

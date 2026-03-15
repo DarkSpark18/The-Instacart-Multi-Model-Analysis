@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-from src.preprocess import preprocess_data
+from src.data.preprocess import preprocess_data
 
 
 # ---------------------------------------------------
