@@ -260,6 +260,9 @@ instacart-ml-pipeline/
 │   └── predictions/            # Model predictions
 │
 ├── 📂 src/
+│   ├── app/
+│   │   └── streamlit_dashboard.py     # Streamlit Dashboard
+│   │
 │   ├── data/
 │   │   ├── load_data.py        # Data loading
 │   │   ├── preprocess.py       # Data preprocessing
