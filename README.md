@@ -746,9 +746,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Project Maintainer:** Krishna Mawar
 
-- GitHub: [@yourusername](https://github.com/DarkSpark18)
+- GitHub: [@DarkSpark18](https://github.com/DarkSpark18)
 - Email: Krishnamawar176@gmail.com
-- LinkedIn: [Your Name](https://linkedin.com/in/krishna-mawar-658670292/)
+- LinkedIn: [Krishna Mawar](https://linkedin.com/in/krishna-mawar-658670292/)
 
 ---
 
